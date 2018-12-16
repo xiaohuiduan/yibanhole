@@ -1,0 +1,208 @@
+
+     section{
+      width:960px;
+      margin:20px auto;
+      background:#fff;
+      border-radius:8px;
+      position: relative;
+      padding:20px 0;
+      margin-bottom:100px;
+    } 
+    .secret_item {
+    width: 90%;
+    margin: 10px auto;
+    height: 200px;
+    background: #fffdfd;
+    transition: 0.2s;
+    border: 1px solid #f1f2f3;
+    border-radius: 8px;
+    position: relative;
+} 
+.secret_item:hover{
+      box-shadow:0 0 50px #f6f2f2;
+      background: #fff;
+  }
+  .secret_item .user_info {
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f1f2f3;
+ }
+ .secret_item .secret_content {
+    margin: 10px;
+    font-size: 16px;
+    color: #555;
+ }
+ .secret_bq {
+    position: absolute;
+    bottom: 40px;
+    margin: 10px;
+    font-size: 0.8em;
+    color: #97a8bf;
+}
+	.bottom_info {
+    width: 96%;
+    margin: 10px;
+    position: absolute;
+    bottom: 0px;
+    font-size:12px;
+}
+.bottom_info .review,.top_num{
+    float:left;
+    margin-right: 15px;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    width: 70px;
+    text-align: center;
+  
+    cursor: pointer;
+    border-radius:4px;
+}
+.bottom_info .top_num{
+     background: #3E9C8F;
+}
+
+.bottom_info .review{
+     background: #78C729;
+}
+
+.review a,.top_num a{
+   color: #fff;
+   text-decoration:none;
+}
+
+.top_num{
+  float: left;
+}
+.detailed {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 2px 10px;
+    margin-bottom: 0;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.secret_item .user_info .time {
+    float: right;
+    margin-right: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+  section .review_box{
+     width:90%;
+     margin:0px auto 0px auto;
+    
+  }
+  section .review_box .review_user{
+     background:#e9e4e4;
+     width:100%;
+     height:30px;
+    }
+  .review_user label,.review_content{
+      font-family: "微软雅黑";
+      font-weight:100;
+      line-height: 30px;
+      font-size:14px;
+      display: inline-block;
+  }
+  .review_content p{
+     text-indent:1em;
+     margin-bottom: 0px;
+     margin-top:10px;
+  }
+  .review_user .username{
+     float:left;
+     margin-left:20px;
+  }
+  .review_user .addtime{
+     float:right;
+     margin-right:20px;
+  }
+  .review .review_content{
+    text-indent:1em;
+    width:100%;
+  }
+  .review_section{
+    display: none;
+  }
+  
+  .pager {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none;
+}
+.pager li{
+   display: inline-block;
+  }
+  .pager li:hover a{
+    background:#ddd;
+  }
+
+  .pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    color: #337ab7;
+    text-decoration: none;
+}
+.not_review{
+   width:90%;
+   margin:auto;
+   text-indent:1em;
+   font-size:10px;
+   color:#ccc;
+}
+@media screen and (max-width: 600px){
+ section {
+    width:97%;
+ }
+ .secret_item .user_info .time {
+    float: right;
+    margin-right: 0px;
+    font-size:12px;
+  }
+  .user_name{
+    font-size:12px;
+  }
+  .secret_item .secret_content {
+    font-size: 12px;
+  }
+  .detailed {
+    margin-left: 5px;
+    padding: 2px 5px;
+    color:#b73a6b;
+    background:#fff;
+    border:none;
+    }
+  .secret_bq{
+    font-size:8px;
+  }
+  .bottom_info .review, .top_num{
+    height:25px;
+    line-height: 25px;
+    width:60px;
+    font-size:12px;
+    font-family: "微软雅黑";
+    font-weight: 100;
+  }
+  .pager li>a, .pager li>span{
+    font-size:12px;
+  }
+
+
+}
